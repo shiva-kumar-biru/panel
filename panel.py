@@ -111,6 +111,8 @@ name = pn.pane.Markdown("PowerFactory Options :", style={
 
 main_column=pn.Column()
 
+# Template of panel "FastListTemplate"
+
 layout = pn.template.FastListTemplate(
     site="Digsilient",
     title="PowerFactory Web interface",
