@@ -37,7 +37,7 @@ button_column = pn.Column(button_loadcal, button_rms, button_activeload, align="
 
 
 
-# Define a function to update the layout based on the selected option
+# Defining a function to update the layout based on the selected option
 def update_layout(event):
     if select.value == "LoadFlow Calculations":
         button_loadcal.visible = True
@@ -90,7 +90,7 @@ def createplot(file_path):
     # Load the data from CSV file
     df = pd.read_csv(str(file_path))
     df = df.rename(columns={r"Network Model\Network Data\Grid\B1\m:u1":"B1voltage"})
-    # Define a ColumnDataSource object to hold the data for the plot
+    # ColumnDataSource object to hold the data for the plot
     source = ColumnDataSource(df)
     # Create a Bokeh plot
     p = figure(title="Curve Plot", plot_width=800, plot_height=400,
