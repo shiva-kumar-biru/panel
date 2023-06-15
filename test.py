@@ -5,14 +5,14 @@ import panel as pn
 
 # Connect to the MariaDB server on laptop A
 connection = mysql.connector.connect(
-    host='192.168.178.25',  # Replace with the IP address or hostname of laptop A
-    user='user2',
-    password='user2',
-    database='shiva'
+    host='192.168.178.53',  # Replace with the IP address or hostname of laptop A
+    user='panel1',
+    password='panel1',
+    database='panel'
 )
 
 # Execute the SQL query to fetch the data from the 'plot' table
-query = 'SELECT year, percentage FROM plot'
+query = 'SELECT year, percentage FROM paneltable'
 df = pd.read_sql(query, connection)
 
 # Close the database connection
