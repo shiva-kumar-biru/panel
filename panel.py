@@ -1,15 +1,8 @@
 #Importing the modules
-
-import IPython
 import panel as pn                      # Importing the panel module
-import ipywidgets as widgets
-from IPython.display import display
 from Loadcalculation import loadcal     # module for loadflow calculation
 from Rmssimulation import rmscal        # module for the RMS simulation
-import matplotlib.pyplot as plt
-import numpy as np
 import pandas as pd                     # module for the data manipulation
-import plotly.graph_objects as go
 from bokeh.plotting import figure
 from bokeh.models import ColumnDataSource, HoverTool, WheelZoomTool, PanTool, ResetTool, SaveTool, BoxZoomTool
 
