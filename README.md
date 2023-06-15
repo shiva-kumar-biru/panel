@@ -9,6 +9,12 @@ This will streamline the simulation process and make it more user-friendly, as u
 ## Getting Started
 To get started please see this presentation [link](https://github.com/shiva-kumar-biru/panel/blob/main/Documents/panel_introduction.pptx)
 
+## References 
+Panel website :
+https://panel.holoviz.org/
+
+
+
 
 
 
