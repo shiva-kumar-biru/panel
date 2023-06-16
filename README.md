@@ -11,8 +11,6 @@ To get started please see this presentation: [link](https://github.com/shiva-kum
 
 ## Setup Process for Panel. 
 
-
-
 ### 1. Setup Virtual environment
 
 
@@ -26,7 +24,7 @@ To get started please see this presentation: [link](https://github.com/shiva-kum
 
 
 
-### 2.Installation process.
+### 2. Installation process.
 
 To use the web interface, you need to install the following libraries:
 
@@ -40,7 +38,7 @@ MySQL: pip install mysql-connector-python.
 
 mariadb : pip install mariadb.
 
-Please refer to the documentation of each library for further information on usage and features:
+--> Please refer to the documentation of each library for further information on usage and features:
 
 Panel Documentation: https://panel.holoviz.org/
 
@@ -51,6 +49,25 @@ Pandas Documentation: https://pandas.pydata.org/docs/
 MySQL Connector/Python Documentation: https://dev.mysql.com/doc/connector-python/en/
 
 MariaDB Connector/Python Documentation: https://mariadb.com/kb/en/mariadb-connector-python/
+
+
+## Files 
+
+### Panel Files:
+
+1. panel.py: This file sets up a web interface for PowerFactory operations, providing a user-friendly way to perform load calculations, run RMS simulations, and visualize results.
+2. loadcalculations.py : This file interacts with the PowerFactory application, and executes a load flow calculation.
+3. Rmssimulation.py : This file interacts with the PowerFactory application, and executes a Rmssimulation.
+
+
+### Database Files:
+
+1. maria.py : This file connects to a MariaDB server, creates a new user and database, creates a table, and loads data from a CSV file into the table.
+2. test.py : the file retrieves data from a MariaDB database, creates a line plot using Matplotlib, and displays the plot as an interactive Panel figure.
+
+### How to run the panel
+
+--> panel serve <pyfile> --show  --autoreload
 
 
 
