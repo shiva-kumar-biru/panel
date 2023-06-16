@@ -112,7 +112,9 @@ MariaDB Connector/Python Documentation: https://mariadb.com/kb/en/mariadb-connec
 
 Run the following command to run the panel application : 
 
+```shell
 panel serve <pyfile> --show  --autoreload
+```
 
 
 
