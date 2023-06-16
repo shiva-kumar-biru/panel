@@ -13,31 +13,44 @@ To get started please see this presentation: [link](https://github.com/shiva-kum
 
 
 
-### 1.Setup Virtual environment
+### 1. Setup Virtual environment
 
-. mkdir folder_name --> creates a new folder
 
-. cd folder_name --> go to folder which you have created 
+1. creates a new folder:  mkdir folder_name
+  
+2. Navigate to the newly created folder: cd folder_name 
 
-. python -m venv file_name --> creating a virtual env
+3. Create a virtual environment: python -m venv file_name 
 
-. file_name\Scripts\activate --> activating the virtual env
+4. Activate the virtual env: file_name\Scripts\activate 
 
 
 
 ### 2.Installation process.
 
-To get started with the panel, need to install some of the libraries.
+To use the web interface, you need to install the following libraries:
 
-Panel : pip install panel
+Panel: pip install panel
 
 Bokeh: pip install bokeh.
 
 Pandas : pip install pandas.
 
-mysql : pip install pip install mysql-connector-python.
+MySQL: pip install mysql-connector-python.
 
 mariadb : pip install mariadb.
+
+Please refer to the documentation of each library for further information on usage and features:
+
+Panel Documentation: https://panel.holoviz.org/
+
+Bokeh Documentation: https://docs.bokeh.org/
+
+Pandas Documentation: https://pandas.pydata.org/docs/
+
+MySQL Connector/Python Documentation: https://dev.mysql.com/doc/connector-python/en/
+
+MariaDB Connector/Python Documentation: https://mariadb.com/kb/en/mariadb-connector-python/
 
 
 
