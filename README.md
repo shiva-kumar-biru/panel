@@ -28,13 +28,26 @@ To get started please refer to the presentation: [link](https://github.com/shiva
 ### 1. Setup Virtual environment
 
 
-1. creates a new folder:  mkdir folder_name
+1. creates a new folder:
+``` shell
+mkdir folder_name
+```
   
-2. Navigate to the newly created folder: cd folder_name 
+2. Navigate to the newly created folder:
+ ``` shell
+cd folder_name 
+   ```
 
-3. Create a virtual environment: python -m venv file_name 
+3. Create a virtual environment:
+``` shell
+python -m venv file_name 
+```
 
-4. Activate the virtual env: file_name\Scripts\activate 
+4. Activate the virtual env:
+
+``` shell
+file_name\Scripts\activate 
+ ```
 
 
 
