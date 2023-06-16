@@ -98,15 +98,15 @@ MariaDB Connector/Python Documentation: https://mariadb.com/kb/en/mariadb-connec
 
 ### Panel Files: <a name="panel-files"></a>
 
-1. panel.py: This file sets up a web interface for PowerFactory operations, providing a user-friendly way to perform load calculations, run RMS simulations, and visualize results.
-2. loadcalculations.py : This file interacts with the PowerFactory application, and executes a load flow calculation.
-3. Rmssimulation.py : This file interacts with the PowerFactory application, and executes a Rmssimulation.
+1. [panel.py](https://github.com/shiva-kumar-biru/panel/blob/main/panel.py): This file sets up a web interface for PowerFactory operations, providing a user-friendly way to perform load calculations, run RMS simulations, and visualize results.
+2. [loadcalculations.py](https://github.com/shiva-kumar-biru/panel/blob/main/Loadcalculation.py) : This file interacts with the PowerFactory application, and executes a load flow calculation.
+3. [Rmssimulation.py](https://github.com/shiva-kumar-biru/panel/blob/main/Rmssimulation.py) : This file interacts with the PowerFactory application, and executes a Rmssimulation.
 
 
 ### Database Files: <a name="database-files"></a>
 
-1. maria.py : This file connects to a MariaDB server, creates a new user and database, creates a table, and loads data from a CSV file into the table.
-2. test.py : the file retrieves data from a MariaDB database, creates a line plot using Matplotlib, and displays the plot as an interactive Panel figure.
+1. [maria.py](https://github.com/shiva-kumar-biru/panel/blob/main/maria.py) : This file connects to a MariaDB server, creates a new user and database, creates a table, and loads data from a CSV file into the table.
+2. [test.py](https://github.com/shiva-kumar-biru/panel/blob/main/test.py) : the file retrieves data from a MariaDB database, creates a line plot using Matplotlib, and displays the plot as an interactive Panel figure.
 
 ## *How to run the panel* <a name="how-to-run-the-panel"></a>
 
