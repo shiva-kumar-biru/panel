@@ -9,6 +9,39 @@ This will streamline the simulation process, which makes it simpler to use as it
 ## Getting Started
 To get started please see this presentation: [link](https://github.com/shiva-kumar-biru/panel/blob/main/Documents/panel_introduction.pptx)
 
+## Setup Process for Panel. 
+
+
+
+### 1.Setup Virtual environment
+
+. mkdir folder_name --> creates a new folder
+
+. cd folder_name --> go to folder which you have created 
+
+. python -m venv file_name --> creating a virtual env
+
+. file_name\Scripts\activate --> activating the virtual env
+
+
+
+### 2.Installation process.
+
+To get started with the panel, need to install some of the libraries.
+
+Panel : pip install panel
+
+Bokeh: pip install bokeh.
+
+Pandas : pip install pandas.
+
+mysql : pip install pip install mysql-connector-python.
+
+mariadb : pip install mariadb.
+
+
+
+
 
 ## References 
 Panel website :
