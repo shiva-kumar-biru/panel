@@ -1,15 +1,15 @@
 # DIgSILENT POWERFACTORY WEB INTERFACE
 
-## Introduction
+## *Introduction*
 
 The goal of this project is to create a web interface for visualizing Digsilent Power-Factory simulation data and a basic control system to interact with it, by an open-source Python library "PANEL".
 
 This will streamline the simulation process, which makes it simpler to use as it bypasses the requirement to use Power-Factory directly for repeated tasks.
 
-## Getting Started
-To get started please see this presentation: [link](https://github.com/shiva-kumar-biru/panel/blob/main/Documents/panel_introduction.pptx)
+## *Getting Started*
+To get started please refer to the presentation: [link](https://github.com/shiva-kumar-biru/panel/blob/main/Documents/panel_introduction.pptx)
 
-## Setup Process for Panel. 
+## *Setup Process for Panel*. 
 
 ### 1. Setup Virtual environment
 
@@ -51,7 +51,7 @@ MySQL Connector/Python Documentation: https://dev.mysql.com/doc/connector-python
 MariaDB Connector/Python Documentation: https://mariadb.com/kb/en/mariadb-connector-python/
 
 
-## Files 
+## *Files* 
 
 ### Panel Files:
 
@@ -65,15 +65,18 @@ MariaDB Connector/Python Documentation: https://mariadb.com/kb/en/mariadb-connec
 1. maria.py : This file connects to a MariaDB server, creates a new user and database, creates a table, and loads data from a CSV file into the table.
 2. test.py : the file retrieves data from a MariaDB database, creates a line plot using Matplotlib, and displays the plot as an interactive Panel figure.
 
-### How to run the panel
+## *How to run the panel*
 
---> panel serve <pyfile> --show  --autoreload
+Run the following command to run the panel application : 
+
+panel serve <pyfile> --show  --autoreload
 
 
 
 
 
-## References 
+## *Documentation and Resources*
+
 Panel website :
 https://panel.holoviz.org/
 
