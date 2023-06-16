@@ -2,9 +2,9 @@
 
 ## Introduction
 
-The goal of this project is to create a web interface for Digsilent Power-Factory, a software tool used for power system simulations by an open-source python library "PANEL".
+The goal of this project is to create a web interface for visualizing Digsilent Power-Factory simulation data and a basic control system to interact with it, by an open-source Python library "PANEL".
 
-This will streamline the simulation process and make it more user-friendly, as users will be able to perform simulations without needing to navigate the complex Power Factory software.
+This will streamline the simulation process, which makes it simpler to use as it bypasses the requirement to use Power-Factory directly for repeated tasks.
 
 ## Getting Started
 To get started please see this presentation: [link](https://github.com/shiva-kumar-biru/panel/blob/main/Documents/panel_introduction.pptx)
