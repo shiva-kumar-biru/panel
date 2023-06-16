@@ -11,6 +11,7 @@
   - [Panel Files](#panel-files)
   - [Database Files](#database-files)
 - [How to Run the Panel](#how-to-run-the-panel)
+- [Documentation and Resources](#documentation)
 
 ## *Introduction* <a name="introduction"></a>
 
@@ -88,7 +89,7 @@ panel serve <pyfile> --show  --autoreload
 
 
 
-## *Documentation and Resources*
+## *Documentation and Resources* <a name="documentation"></a>
 
 Panel website :
 https://panel.holoviz.org/
