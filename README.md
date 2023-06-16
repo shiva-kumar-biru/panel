@@ -28,22 +28,22 @@ To get started please refer to the presentation: [link](https://github.com/shiva
 ### 1. Setup Virtual environment
 
 
-1. creates a new folder:
+1.1. creates a new folder:
 ``` shell
 mkdir folder_name
 ```
   
-2. Navigate to the newly created folder:
+1.2. Navigate to the newly created folder:
  ``` shell
 cd folder_name 
    ```
 
-3. Create a virtual environment:
+1.3. Create a virtual environment:
 ``` shell
 python -m venv file_name 
 ```
 
-4. Activate the virtual env:
+1.4. Activate the virtual env:
 
 ``` shell
 file_name\Scripts\activate 
@@ -55,15 +55,31 @@ file_name\Scripts\activate
 
 To use the web interface, you need to install the following libraries:
 
-Panel: pip install panel
+Panel: 
+``` shell
+pip install panel
+```
 
-Bokeh: pip install bokeh.
+Bokeh: 
+``` shell
+pip install bokeh
+```
 
-Pandas : pip install pandas.
+Pandas : 
+``` shell
+pip install pandas
+```
 
-MySQL: pip install mysql-connector-python.
 
-mariadb : pip install mariadb.
+MySQL: 
+``` shell
+pip install mysql-connector-python
+```
+
+mariadb : 
+``` shell
+pip install mariadb
+```
 
 --> Please refer to the documentation of each library for further information on usage and features:
 
