@@ -1,7 +1,7 @@
+import sys
+sys.path.append(r'C:\Program Files\DIgSILENT\PowerFactory 2022 SP4\Python\3.10')
+import powerfactory
 def loadcal():
-    import sys
-    sys.path.append(r'C:\Program Files\DIgSILENT\PowerFactory 2022 SP4\Python\3.10')
-    import powerfactory
     app = powerfactory.GetApplication()
     proj=app.ActivateProject('practice')
     app.PrintPlain(proj)

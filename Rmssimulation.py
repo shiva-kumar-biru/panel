@@ -1,10 +1,10 @@
+import sys
+sys.path.append(r'C:\Program Files\DIgSILENT\PowerFactory 2022 SP4\Python\3.10')
+import powerfactory
+import powfacpy
+import os
+
 def rmscal():
-    import sys
-    sys.path.append(r'C:\Program Files\DIgSILENT\PowerFactory 2022 SP4\Python\3.10')
-    import powerfactory
-    import powfacpy
-    import os
-    
     app = powerfactory.GetApplication()
     pfbi = powfacpy.PFBaseInterface(app)
     proj=app.ActivateProject('practice')
