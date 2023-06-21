@@ -5,6 +5,7 @@
 
 - [Introduction](#introduction)
 - [Getting Started](#getting-started)
+- [Clone The repository](#clone)
   - [Setup Process for Panel](#setup-process-for-panel)
   - [Installation](#installation)
 - [Files](#files)
@@ -22,6 +23,12 @@ This will streamline the simulation process, which makes it simpler to use as it
 ## *Getting Started* <a name="getting-started"></a>
 
 To get started please refer to the presentation: [link](https://github.com/shiva-kumar-biru/panel/blob/main/Documents/panel_introduction.pptx)
+
+## *Clone the repository* <a name="clone"></a>
+1.1. clone:
+``` shell
+git clone https://github.com/shiva-kumar-biru/panel.git
+```
 
 ## *Setup Process for Panel*. <a name="setup-process-for-panel"></a>
 
