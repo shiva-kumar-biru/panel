@@ -2,6 +2,11 @@ import sys
 sys.path.append(r'C:\Program Files\DIgSILENT\PowerFactory 2022 SP4\Python\3.10')
 import powerfactory
 def loadcal():
+    """
+    This function performs load flow calculations.
+    Returns:
+        str : A string containing the voltage values of the Buses.
+    """
     app = powerfactory.GetApplication()
     proj=app.ActivateProject('practice')
     app.PrintPlain(proj)
