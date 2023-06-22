@@ -56,7 +56,7 @@ python -m venv panelenv
 panelenv\Scripts\activate 
  ```
 
-###info about Virtual Environments [link](https://realpython.com/python-virtual-environments-a-primer/)
+### Info about Virtual Environments [link](https://realpython.com/python-virtual-environments-a-primer/)
 
 
 ### 2. Installation process. <a name="installation"></a>
