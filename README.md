@@ -25,6 +25,7 @@ This will streamline the simulation process, which makes it simpler to use as it
 To get started please refer to the presentation: [link](https://github.com/shiva-kumar-biru/panel/blob/main/Documents/panel_introduction.pptx)
 
 ## *Clone the repository* <a name="clone"></a>
+
 1.1. clone:
 ``` shell
 git clone https://github.com/shiva-kumar-biru/panel.git
@@ -34,65 +35,46 @@ git clone https://github.com/shiva-kumar-biru/panel.git
 
 ### 1. Setup Virtual environment
 
+note: Before creating a virtual environment, please delete the existing virtual environment (panelenv) which is located inside the panel 
 
-1.1. creates a new folder:
-``` shell
-mkdir folder_name
-```
   
-1.2. Navigate to the newly created folder:
+1.1. Navigate to the folder:
+
  ``` shell
-cd folder_name 
+cd panel
    ```
 
-1.3. Create a virtual environment:
+1.2. Create a virtual environment:
+
 ``` shell
-python -m venv file_name 
+python -m venv panelenv 
 ```
 
-1.4. Activate the virtual env:
+1.3. Activate the virtual env:
 
 ``` shell
-file_name\Scripts\activate 
+panelenv\Scripts\activate 
  ```
 
+###info about Virtual Environments [link](https://realpython.com/python-virtual-environments-a-primer/)
 
 
 ### 2. Installation process. <a name="installation"></a>
 
 To use the web interface, you need to install the following libraries:
 
-Panel: 
+After activating the virtual environment, you need to install the requirements.txt file
+
+#### requirement file :
+
+A requirement. txt python file is a type of file that usually stores information about all the libraries, modules, and packages specific to the project used while developing a particular project.
+
+requirements.txt file: 
+
 ``` shell
-pip install panel
+pip install -r requirements.txt
 ```
 
-Bokeh: 
-``` shell
-pip install bokeh
-```
-
-Pandas : 
-``` shell
-pip install pandas
-```
-
-
-MySQL: 
-``` shell
-pip install mysql-connector-python
-```
-
-mariadb : 
-``` shell
-pip install mariadb
-```
-
-
-Powfacpy : 
-``` shell
-pip install powfacpy
-```
 
 --> Please refer to the documentation of each library for further information on usage and features:
 
