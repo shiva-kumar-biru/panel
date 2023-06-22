@@ -35,9 +35,6 @@ git clone https://github.com/shiva-kumar-biru/panel.git
 
 ### 1. Setup Virtual environment
 
-note: Before creating a virtual environment, please delete the existing virtual environment (panelenv) which is located inside the panel 
-
-  
 1.1. Navigate to the folder:
 
  ``` shell
@@ -47,13 +44,13 @@ cd panel
 1.2. Create a virtual environment:
 
 ``` shell
-python -m venv panelenv 
+python -m venv panelvenv 
 ```
 
 1.3. Activate the virtual env:
 
 ``` shell
-panelenv\Scripts\activate 
+panelvenv\Scripts\activate 
  ```
 
 ### Info about Virtual Environments [link](https://realpython.com/python-virtual-environments-a-primer/)
@@ -103,6 +100,9 @@ MariaDB Connector/Python Documentation: https://mariadb.com/kb/en/mariadb-connec
 
 1. [maria.py](https://github.com/shiva-kumar-biru/panel/blob/main/maria.py) : This file connects to a MariaDB server, creates a new user and database, creates a table, and loads data from a CSV file into the table.
 2. [test.py](https://github.com/shiva-kumar-biru/panel/blob/main/test.py) : the file retrieves data from a MariaDB database, creates a line plot using Matplotlib, and displays the plot as an interactive Panel figure.
+
+### PowerFactory Files: 
+1.[practice.pfd](https://github.com/shiva-kumar-biru/panel/edit/main/practice.pfd): This file is the project created in power factory Tool, make sure to import into the powerfactory project folder before running the panel command ,so that you can see the results in the Interface.
 
 ## *How to run the panel* <a name="how-to-run-the-panel"></a>
 
