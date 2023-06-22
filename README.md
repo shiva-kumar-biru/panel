@@ -91,8 +91,8 @@ MariaDB Connector/Python Documentation: https://mariadb.com/kb/en/mariadb-connec
 ### Panel Files: <a name="panel-files"></a>
 
 1. [panel.py](https://github.com/shiva-kumar-biru/panel/blob/main/panel.py): This file sets up a web interface for PowerFactory operations, providing a user-friendly way to perform load calculations, run RMS simulations, and visualize results.
-2. [loadcalculations.py](https://github.com/shiva-kumar-biru/panel/blob/main/Loadcalculation.py) : This file interacts with the PowerFactory application, and executes a load flow calculation.
-3. [Rmssimulation.py](https://github.com/shiva-kumar-biru/panel/blob/main/Rmssimulation.py) : This file interacts with the PowerFactory application, and executes a Rmssimulation.
+2. [loadcalculations.py](https://github.com/shiva-kumar-biru/panel/blob/main/Loadcalculation.py) : This file interacts with the PowerFactory application and executes a load flow calculation.
+3. [Rmssimulation.py](https://github.com/shiva-kumar-biru/panel/blob/main/Rmssimulation.py) : This file interacts with the PowerFactory application and executes a Rmssimulation. ( change the file path name as per your location-> filepath=r"C:\Users\sbiru\Desktop\rmssimfile" )
 4. test1.py : for testing purpose( modifications in interface)
 
 
@@ -102,7 +102,7 @@ MariaDB Connector/Python Documentation: https://mariadb.com/kb/en/mariadb-connec
 2. [test.py](https://github.com/shiva-kumar-biru/panel/blob/main/test.py) : the file retrieves data from a MariaDB database, creates a line plot using Matplotlib, and displays the plot as an interactive Panel figure.
 
 ### PowerFactory Files: 
-1.[practice.pfd](https://github.com/shiva-kumar-biru/panel/edit/main/practice.pfd): This file is the project created in power factory Tool, make sure to import into the powerfactory project folder before running the panel command ,so that you can see the results in the Interface.
+1.[practice.pfd](https://github.com/shiva-kumar-biru/panel/edit/main/practice.pfd): This file is the project created in the power factory Tool, make sure to import it into the power factory project folder before running the panel command,so that you can see the results in the Interface.
 
 ## *How to run the panel* <a name="how-to-run-the-panel"></a>
 
@@ -118,9 +118,6 @@ panel serve <pyfile> --show  --autoreload
 ```shell
 panel serve panel.py --show  --autoreload
 ```
-
-
-
 
 
 ## *Documentation and Resources* <a name="documentation"></a>
