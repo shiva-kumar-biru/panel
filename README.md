@@ -72,6 +72,9 @@ requirements.txt file:
 pip install -r requirements.txt
 ```
 
+### PowerFactory Files: 
+1.[practice.pfd](https://github.com/shiva-kumar-biru/panel/edit/main/practice.pfd): This file is the project created in the power factory Tool, make sure to import it into the power factory project folder before running the panel command,so that you can see the results in the Interface.
+
 
 --> Please refer to the documentation of each library for further information on usage and features:
 
@@ -101,8 +104,6 @@ MariaDB Connector/Python Documentation: https://mariadb.com/kb/en/mariadb-connec
 1. [maria.py](https://github.com/shiva-kumar-biru/panel/blob/main/maria.py) : This file connects to a MariaDB server, creates a new user and database, creates a table, and loads data from a CSV file into the table.
 2. [test.py](https://github.com/shiva-kumar-biru/panel/blob/main/test.py) : the file retrieves data from a MariaDB database, creates a line plot using Matplotlib, and displays the plot as an interactive Panel figure.
 
-### PowerFactory Files: 
-1.[practice.pfd](https://github.com/shiva-kumar-biru/panel/edit/main/practice.pfd): This file is the project created in the power factory Tool, make sure to import it into the power factory project folder before running the panel command,so that you can see the results in the Interface.
 
 ## *How to run the panel* <a name="how-to-run-the-panel"></a>
 
